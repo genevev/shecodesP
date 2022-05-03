@@ -78,12 +78,18 @@
     </section>
 
     <script>
-        let myCountry = prompt('What country are you from?');
-        if (myCountry === 'Brazil' || myCountry === 'Portugal' || myCountry === 'brazil' || myCountry === 'BRAZIL' || myCountry === 'PORTUGAL ' || myCountry === 'pORTugal') {
-            alert('You can speak Portuguese 😎');
-        } else {
-            alert('Please Go Learn Portuguese 🤨');
+        function greetUser() {
+            let myCountry = prompt('What country are you from?');
+            myCountry = myCountry.toLowerCase();
+            myCountry = myCountry.trim();
+            myCountry = myCountry.replace('brasil', 'brazil');
+            if (myCountry === 'brazil' || myCountry === 'portugal') {
+                alert('You can speak Portuguese 😎');
+            } else {
+                alert('Please Go Learn Portuguese 🤨');
+            }
         }
+        greetUser();
     </script>
 </body>
 
