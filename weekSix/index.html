@@ -78,13 +78,11 @@
     </section>
 
     <script>
-        let hour = prompt('What is the current hour?');
-        if (hour < 12) {
-            alert("Good morning 🌞")
-        } else if (hour > 18) {
-            alert("Good evening 🌘")
+        let myCountry = prompt('What country are you from?');
+        if (myCountry === 'Brazil' || myCountry === 'Portugal' || myCountry === 'brazil' || myCountry === 'BRAZIL' || myCountry === 'PORTUGAL ' || myCountry === 'pORTugal') {
+            alert('You can speak Portuguese 😎');
         } else {
-            alert("Good afternoon 🥰")
+            alert('Please Go Learn Portuguese 🤨');
         }
     </script>
 </body>
