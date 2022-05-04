@@ -78,18 +78,20 @@
     </section>
 
     <script>
-        function greetUser() {
-            let myCountry = prompt('What country are you from?');
-            myCountry = myCountry.toLowerCase();
-            myCountry = myCountry.trim();
-            myCountry = myCountry.replace('brasil', 'brazil');
-            if (myCountry === 'brazil' || myCountry === 'portugal') {
-                alert('You can speak Portuguese 😎');
+        function join() {
+            let name = prompt("what is your name?");
+            let age = prompt("what is your age?")
+            let h1 = document.querySelector("h1");
+
+            if (age >= 18) {
+                h1.innerHTML = "Hi, " + name + "! Welcome to SheCodes😎 ";
             } else {
-                alert('Please Go Learn Portuguese 🤨');
+                h1.innerHTML = "Sorry, " + name + "! You can not join SheCodes🤨";
             }
         }
-        greetUser();
+
+        let button = document.querySelector("button");
+        button.addEventListener("click", join);
     </script>
 </body>
 
