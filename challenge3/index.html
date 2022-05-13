@@ -27,7 +27,6 @@
             text-align: center;
             font-weight: 900;
             font-size: 34px;
-            line-height: 48px;
             margin: 0;
             border: 1px solid #7d51e8;
             padding: 15px;
@@ -42,12 +41,24 @@
             max-width: 100%;
             border-radius: 10%;
             padding: 10px;
+            box-shadow: 10%;
+        }
+        
+        hr {
+            width: auto;
+            border: none;
+            height: 1px;
+            background: #dddddd;
         }
         
         p {
             line-height: 1.5;
             font-size: 13px;
             font-family: PT Mono, monospace;
+        }
+        
+        span {
+            color: yellow;
         }
         
         ul {
@@ -91,7 +102,7 @@
         
         .container {
             color: white;
-            background-color: rgba(0, 0, 0, 0.906);
+            background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
             max-width: 600px;
             margin: 0 auto;
             padding: 30px 60px;
@@ -117,35 +128,39 @@
     <div class="container">
         <h1>The best trading cryptocurrency assets</h1>
 
-        <img src="https://cdn.pixabay.com/photo/2021/09/19/17/15/bitcoin-6638601_1280.jpg" width="300">
+        <hr color="#fafaf6">
+
+        <img src=" https://s3.amazonaws.com/shecodesio-production/uploads/files/000/034/214/original/bitcoin-6638601_1280.jpg?1652450571 " width="300 ">
+
+        <hr color="#fafaf6">
 
         <p>Start investing now on crybse you can learn how to buy and sell cryptocurrency assets with the quality and easy
             <br/>
-            <a href="https://www.kaspersky.com/resource-center/definitions/what-is-cryptocurrency" class="learn-more">Learn more on crypto</a>
+            <a href="https://www.kaspersky.com/resource-center/definitions/what-is-cryptocurrency " class="learn-more ">Learn more on crypto</a>
 
 
         </p>
 
         <ul>
             <li>
-                <a href="https://www.binance.com/en">Binance</a>
+                <a href="https://www.binance.com/en ">Binance</a>
             </li>
             <li>
-                <a href="https://www.blockchain.com/">Blockchain</a>
+                <a href="https://www.blockchain.com/ ">Blockchain</a>
             </li>
             <li>
-                <a href="https://www.coinbase.com/">Coinbase</a>
+                <a href="https://www.coinbase.com/ ">Coinbase</a>
             </li>
             <li>
-                <a href="https://coinmarketcap.com/">CoinMarketCap</a>
+                <a href="https://coinmarketcap.com/ ">CoinMarketCap</a>
             </li>
         </ul>
 
         <h2>Ours best users are all over the world with wide coverage</h2>
 
-        <img src="https://cdn.pixabay.com/photo/2021/09/06/12/40/cryptocurrency-6601591__340.jpg" width="300">
+        <img src="https://cdn.pixabay.com/photo/2021/09/06/12/40/cryptocurrency-6601591__340.jpg " width="300 ">
 
-        <p>Our platform reaches people all over the world, hereby we are trusted as the est platform for crypto trading</p>
+        <p>Our platform reaches people <span>all over the world, hereby we are</span> all over the world, hereby we are trusted as the est platform for crypto trading</p>
 
         <ul>
             <li>
@@ -169,24 +184,24 @@
 
         <h2>Get ready to explore the crypo world</h2>
 
-        <img src="https://cdn.dribbble.com/users/1414277/screenshots/13933898/bitoket_1_4x.png" width="300">
+        <img src="https://cdn.dribbble.com/users/1414277/screenshots/13933898/bitoket_1_4x.png " width="300 ">
 
         <p>Your Accumalation Headquarters</p>
 
-        <button class="getstarted_button">Let's get started 🚀</button>
+        <button class="getstarted_button ">Let's get started 🚀</button>
 
-        <p class="footer">This page was build by
-            <a href="https://www.lkyalu.io">Genevieve Lubungyo</a>
+        <p class="footer ">This page was build by
+            <a href="https://www.lkyalu.io "><em>Genevieve Lubungyo</em></a>
         </p>
     </div>
 
     <script>
         function cryptoCur() {
-            let name = prompt("What is your name?");
-            let currency = prompt("What is the current currency?");
+            let name = prompt("What is your name? ");
+            let currency = prompt("What is the current currency? ");
 
             if (currency >= 1) {
-                alert("Congratulations, " + name + "! Your wallet has been debuted with an X amount 💵");
+                alert("Congratulations, " + name + "! Your wallet has been debuted with an X amount 💵 ");
             } else {
                 alert("😔 Sorry for the loss, " + name);
             }
