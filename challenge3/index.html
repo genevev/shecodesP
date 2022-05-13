@@ -5,20 +5,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vanilla Ice 🍨</title>
+    <title>Binance homePage</title>
+
+
 
     <style>
+        body {
+            font-family: Cerebri Sans, Helvetica, Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+        
         h1 {
             text-align: center;
-            color: #7d51e8;
+            font-weight: 900;
+            font-size: 34px;
+            line-height: 48px;
+            margin: 0;
         }
         
         h2 {
             text-align: center;
+            font-weight: 900;
+            font-size: 34px;
+            line-height: 48px;
+            margin: 0;
             border: 1px solid #7d51e8;
             padding: 15px;
             font-size: 18px;
             border-radius: 4px;
+            line-height: 1.2;
         }
         
         img {
@@ -26,40 +41,63 @@
             margin: 0 auto;
             max-width: 100%;
             border-radius: 10%;
+            padding: 10px;
         }
         
         p {
             line-height: 1.5;
             font-size: 13px;
+            font-family: PT Mono, monospace;
+        }
+        
+        ul {
+            list-style-type: none;
+            display: flex;
+        }
+        
+        li {
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 5px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #885df1;
+        }
+        
+        a:hover {
+            text-decoration: underline;
         }
         
         button {
+            border-radius: 25px;
+            margin: 0 auto;
             display: block;
-            margin: 20px auto;
-            background: #7d51e8;
-            color: white;
-            font-size: 18px;
-            padding: 15px 20px;
-            border: none;
-            border-radius: 6%;
-            box-shadow: 5px 5px 10px rgba(0, 0, 0.3);
-            transition: all 200ms ease-in-out;
+            background-color: #fff;
+            border: 1px solid #885df1;
+            color: #885df1;
+            font-size: 16px;
+            line-height: 22px;
+            padding: 16px 24px;
+            text-decoration: none;
+            transition: all 200ms ease;
         }
         
         button:hover {
-            opacity: 0.9;
-            cursor: pointer;
+            color: #fff;
+            background: #885df1;
         }
         
         .container {
-            background-color: rgb(244, 244, 231);
+            color: white;
+            background-color: rgba(0, 0, 0, 0.906);
             max-width: 600px;
             margin: 0 auto;
             padding: 30px 60px;
-            border-radius: 3%;
         }
         
-        .learn-more {
+        er .learn-more {
             color: #7d51e8;
             text-decoration: none;
             font-size: 12px;
@@ -77,35 +115,85 @@
 
 <body>
     <div class="container">
-        <h1>I love Ice cream</h1>
-        <h2>Especially Vanilla Ice</h2>
+        <h1>The best trading cryptocurrency assets</h1>
 
-        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/033/952/original/vany.png?1652211760" alt="Vanilla Ice" width="300">
+        <img src="https://cdn.pixabay.com/photo/2021/09/19/17/15/bitcoin-6638601_1280.jpg" width="300">
 
-        <p>Vanilla is frequently used to flavor ice cream, especially in North America, Asia, and Europe. Vanilla ice cream, like other flavors of ice cream, was originally created by cooling a mixture made of cream, sugar, and vanilla above a container
-            of ice and salt.
+        <p>Start investing now on crybse you can learn how to buy and sell cryptocurrency assets with the quality and easy
             <br/>
-            <a href="https://en.wikipedia.org/wiki/Vanilla_ice_cream" class="learn-more">Learn more on wikipedia</a>
+            <a href="https://www.kaspersky.com/resource-center/definitions/what-is-cryptocurrency" class="learn-more">Learn more on crypto</a>
+
+
         </p>
 
-        <button class="buy_button">Buy Vanilla Ice 🥰</button>
+        <ul>
+            <li>
+                <a href="https://www.binance.com/en">Binance</a>
+            </li>
+            <li>
+                <a href="https://www.blockchain.com/">Blockchain</a>
+            </li>
+            <li>
+                <a href="https://www.coinbase.com/">Coinbase</a>
+            </li>
+            <li>
+                <a href="https://coinmarketcap.com/">CoinMarketCap</a>
+            </li>
+        </ul>
 
-        <p class="footer">This page wasbuild by
+        <h2>Ours best users are all over the world with wide coverage</h2>
+
+        <img src="https://cdn.pixabay.com/photo/2021/09/06/12/40/cryptocurrency-6601591__340.jpg" width="300">
+
+        <p>Our platform reaches people all over the world, hereby we are trusted as the est platform for crypto trading</p>
+
+        <ul>
+            <li>
+                <strong>20M+</strong>
+                <br/>
+                <p>People who have joined crybse</p>
+            </li>
+
+            <li>
+                <strong>100+</strong>
+                <br/>
+                <p>Famous people playing crybse</p>
+            </li>
+
+            <li>
+                <strong>50</strong>
+                <br/>
+                <p>Cooperation with big companies</p>
+            </li>
+        </ul>
+
+        <h2>Get ready to explore the crypo world</h2>
+
+        <img src="https://cdn.dribbble.com/users/1414277/screenshots/13933898/bitoket_1_4x.png" width="300">
+
+        <p>Your Accumalation Headquarters</p>
+
+        <button class="getstarted_button">Let's get started 🚀</button>
+
+        <p class="footer">This page was build by
             <a href="https://www.lkyalu.io">Genevieve Lubungyo</a>
         </p>
     </div>
 
     <script>
-        function buyIce() {
+        function cryptoCur() {
             let name = prompt("What is your name?");
-            let email = prompt("What is your email?");
-            let emoji = prompt("What is your favorite emoji?")
+            let currency = prompt("What is the current currency?");
 
-            alert("Thank you, " + name + "! We will be in touch by email meanwhile enjoy your ice" + emoji)
+            if (currency >= 1) {
+                alert("Congratulations, " + name + "! Your wallet has been debuted with an X amount 💵");
+            } else {
+                alert("😔 Sorry for the loss, " + name);
+            }
         }
 
-        let button = document.querySelector(".buy_button");
-        button.addEventListener("click", buyIce);
+        let button = document.querySelector(".getstarted_button");
+        button.addEventListener("click", cryptoCur);
     </script>
 </body>
 
